@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* para que el padding y el border no se sumen al width */
+}
+
+body {
+    background-color: #201f2041;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+main {
+    height: 100%;
+    width: 60%;
+}
+
+aside {
+    width: 40%; 
+    background-color: #2e4053;;
+    padding: 1em;
+}
+
+.perfil {
+    height: 200px;
+    width: 100%; /* ocupa todo el ancho del main */
+    background-color: #5d6d7e;
+    text-align: center;
+}
+
+.img {
+    width: 150px;
+    height: 150px; 
+    margin-top: 1em;
+    border:double 10px #030e1a;
+    border-radius: 50%;
+}
+
+.datos {
+    text-align: center;
+}
+
+.datosPersonales, .redes, .educacion {
+    margin-top: 2em;
+    padding: 2em;
+    background-color: #99aaab;
+    color: black; 
+
+    .ListaDP{
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em; 
+    }
+    /* li{
+        list-style: none;
+    } */
+}
+
+.redes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
