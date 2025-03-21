@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #201f2041;
+    background-color:white;
     min-height: 100vh;
     width: 100vw;
     display: flex;
@@ -18,14 +18,14 @@ main {
 
 aside {
     width: 40%; 
-    background-color: #2e4053;;
+    background-color: gray;
     padding: 1em;
 }
 
 .perfil {
     height: 200px;
     width: 100%; /* ocupa todo el ancho del main */
-    background-color: #5d6d7e;
+    background-color: #006666;
     text-align: center;
 }
 
@@ -38,13 +38,14 @@ aside {
 }
 
 .datos {
+    margin-top: 1em;
     text-align: center;
 }
 
 .datosPersonales, .redes, .educacion {
     margin-top: 2em;
     padding: 2em;
-    background-color: #99aaab;
+    background-color: #c7c8c9;
     color: black; 
 
     .ListaDP{
@@ -58,7 +59,43 @@ aside {
     } */
 }
 
+.meil, .cel{
+    width: 18px;
+    height: 18px;
+ }
+ 
 .redes{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.contenedorFlexbox{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(170, 162, 162);
+    overflow-x: auto;
+    gap: 10px; /*espacio entre elementos*/
+}
+.tarjeta{
+    margin: 10px;
+    flex-grow: 0; /* para que se expanda*/
+    flex-shrink: 0; /* para que no se encoja */
+    flex-basis: auto;
+    flex: 0 0 100px; /*para que no es encoja ni se expanda*/
+    background-color: #006666;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0,5); /*sombras */
+}
+.tarjetaTitulo{
+    font-size: 1,5em;
+    font-weight: bold;
+}
+.tarjetaContenido{
+    font-size: 1em;
+    background-color: white;
+    color: gray;
+    padding: 1em;
+    border-radius: 1em;
 }
