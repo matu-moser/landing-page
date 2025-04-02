@@ -1,0 +1,67 @@
+@import url("tipografias.css");
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Se asegura de que el cuerpo ocupe toda la pantalla */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.tarjetaPrincipal {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 20px;
+    background-color: #313b3b;
+    color: white;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.foto {
+    margin-bottom: 10px; /* Espacio entre la foto y el nombre */
+}
+
+.img {
+    width: 180px;
+    height: 180px;
+}
+
+.tarjetaTitulo h1 {
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center; /* Centra el nombre debajo de la foto */
+}
+
+.data {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.tarjeta h2 {
+    font-size: 1.2em;
+    color: #313b3b;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    .Likes, .Followers, .Following{
+        text-align: center;
+    }
+}
