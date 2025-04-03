@@ -25,7 +25,7 @@ body {
     justify-content: center; /* Centra los elementos verticalmente */
     align-items: center; /* Centra los elementos horizontalmente */
     padding: 20px;
-    background-color: #313b3b;
+    background-color: #414545;
     color: white;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
@@ -46,6 +46,13 @@ body {
     text-align: center; /* Centra el nombre debajo de la foto */
 }
 
+.tarjetaTitulo h4{
+    margin: 0;
+    font-size: 1em;
+    text-align: center;
+    padding: 5px;
+}
+
 .data {
     background-color: #f1f1f1;
     padding: 20px;
@@ -64,4 +71,23 @@ body {
     .Likes, .Followers, .Following{
         text-align: center;
     }
+}
+.botones{
+    padding: 20px;
+}
+.boton1{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 2em;
+    color: #525252;
+    cursor: pointer;
+}
+.boton2{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 2em;
+    color: #525252;
+    cursor: pointer;
 }
