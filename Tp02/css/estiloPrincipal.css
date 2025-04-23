@@ -1,0 +1,23 @@
+@import url("tipografias.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* para que el padding y el border no se sumen al width */
+}
+
+main {
+    height: 100vh;
+    width: 540px;
+    margin: auto;
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #d4c8c8a1;
+}
+
+header {
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gray;
+}
