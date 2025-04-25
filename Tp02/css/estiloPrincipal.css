@@ -10,14 +10,45 @@ main {
     width: 540px;
     margin: auto;
     min-height: 100%;
-    font-family: Arial, sans-serif;
     background-color: #d4c8c8a1;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
 }
 
-header {
+header {    
     display: flex;
-    height: 40px;
+    height: 60px;
     flex-direction: row;
     justify-content: space-around;
     background-color: gray;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.carta .img{
+    width: 150px;
+    height: auto;
+    border-radius: 1em;
+}
+
+.carta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
