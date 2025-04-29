@@ -13,6 +13,7 @@ main {
     background-color: #d4c8c8a1;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header {    
@@ -38,13 +39,26 @@ header {
     border-radius: 1em;
 }
 
+.carta2 .img{
+    width: 385px;
+    height: auto;
+    border-radius: 1em;
+}
+
+.carta2{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    width: auto;
+    background-color: #f9f9f9;
+}
+
 .carta{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: auto;
     background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .descripcion{
     display: flex;
